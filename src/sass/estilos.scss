@@ -2,6 +2,7 @@
 @import "./hero.scss";
 @import "./menu.scss";
 @import "./why.scss";
+@import "./latestArticles.scss";
 :root {
     --darkBlue: hsl(233, 26%, 24%);
     --limeGreen: hsl(136, 65%, 51%);
@@ -46,6 +47,10 @@ body {
     &__h2 {
         @extend .title__h1;
         font-size: 1.5em;
+    }
+    &__h3 {
+        @extend .title__h1;
+        font-size: 1em;
     }
 }
 

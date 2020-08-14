@@ -26,7 +26,7 @@
 
 .why {
   text-align: center;
-  background: var(--gray);
+  background: var(--lightGray);
   padding: 5em 0;
 }
 .why .copy {
@@ -41,6 +41,7 @@
 }
 
 .latestArticles {
+  background: var(--ray);
   padding: 5em 0;
 }
 .latestArticles .title__h1, .latestArticles .title__h3, .latestArticles .title__h2 {
@@ -56,13 +57,15 @@
 .latestArticles__item {
   border-radius: 0.5em;
   overflow: hidden;
-  background: var(--white);
+  background: var(--lightGray);
+  border: 1px #ededed solid;
 }
 .latestArticles__item-content {
   padding: 1.8em;
 }
 .latestArticles__item .copy {
   color: var(--grayBlue);
+  font-size: 13px;
 }
 .latestArticles__item small {
   color: var(--grayBlue);
@@ -73,6 +76,35 @@
   width: 100%;
   object-fit: cover;
   display: block;
+}
+
+.footer {
+  background-color: var(--darkBlue);
+  color: var(--white);
+  padding: 2em 0;
+  text-align: center;
+}
+.footer svg {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.footer__link {
+  display: block;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+.footer__social {
+  display: grid;
+  grid-template-columns: repeat(5, 25px);
+  grid-column-gap: 1em;
+  justify-content: center;
+  margin: 2.5em 0;
+}
+.footer__copyright {
+  color: var(--grayBlue);
+  margin-top: 2.5em;
 }
 
 :root {
@@ -131,6 +163,42 @@ body {
   border-radius: 1.5em;
   color: var(--white);
   background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--brightCyan) 100%);
+}
+
+.icon__facebook {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../../challenge-assets/images/icon-facebook.svg");
+}
+.icon__youtube {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../../challenge-assets/images/icon-youtube.svg");
+}
+.icon__twitter {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../../challenge-assets/images/icon-twitter.svg");
+}
+.icon__pinterest {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../../challenge-assets/images/icon-pinterest.svg");
+}
+.icon__instagram {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../../challenge-assets/images/icon-instagram.svg");
 }
 
 /*# sourceMappingURL=estilos.css.map */

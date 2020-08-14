@@ -1,4 +1,5 @@
 .latestArticles {
+    background: var(--ray);
     padding: 5em 0;
     .title__h1 {
         text-align: center;
@@ -13,12 +14,14 @@
     &__item {
         border-radius: .5em;
         overflow: hidden;
-        background: var(--white);
+        background: var(--lightGray);
+        border: 1px #ededed solid;
         &-content {
             padding: 1.8em;
         }
         .copy {
             color: var(--grayBlue);
+            font-size: 13px;
         }
         small {
             color: var(--grayBlue);

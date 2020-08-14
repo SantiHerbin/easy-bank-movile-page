@@ -3,4 +3,4 @@
 Challenge de Frontend Mentor hecho en vanilla.
 
 
-![Alt text](/../master/path/to/one.png?raw=true "Optional Title")
+![Alt text](/../master/static/page-complete/one.png?raw=true "Optional Title")
